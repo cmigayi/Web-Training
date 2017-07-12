@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second Class</title>
+</head>
+<body>
+	
+	<!--
+		Forms part 1
+	-->
+
+	<form>
+		Firstname:
+		<input name="" type="text" />	
+		<br/>
+		Lastname:
+		<input name="" type="text" />	
+		<br/>
+		Email:
+		<input name="" type="text" />
+		<br/>
+		Password:
+		<input name="" type="Password"/>
+		<br/>
+		<input name="" type="submit" value="Submit"/>
+	</form>
+
+	<!--
+		Form part 2: TextArea
+	-->
+
+	<form>
+		<p>
+			Give us a feedback<br/>
+			<textarea rows="5" cols="20">			
+
+			</textarea>
+
+		</p>
+
+		<p>
+			Choose your gender:
+		<input type="Radio"	name="gender" /> Male
+		<input type="Radio" name="gender" checked/> Female
+
+		</p>		
+		
+		<input type="submit" name="" value="Send feedback">
+	</form>
+	<!--
+		Form part 3: Radio button 
+	-->
+
+	<form>
+		<input type="Radio"	name="gender" /> Male
+		<input type="Radio" name="gender" checked/> Female
+		<input type="submit" name="" value="Submit">	
+	</form>
+	
+
+	<!--
+		Form part 4: Checkbox
+	-->
+	<form>
+		<input type="checkbox" name="" checked> Mangoe
+		<input type="checkbox" name=""> Carrot
+		<input type="checkbox" name=""> Orange
+	</form>
+
+	<!--
+		Form part 5: Dropdown list or selection
+		choosing many items
+	-->
+	<form>
+	Gender:
+		<select>
+			<option>Male</option>
+			<option>Female</option>
+		</select>
+	</form>
+
+	<!--
+		Form part 6: option slection
+	-->
+	<form>
+		<select size="5" multiple="multiple">
+			<option>fsdfsf</option>
+			<option>fdsfdsfd</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+		</select>
+	</form>
+
+	<!--
+		Form part 6: file upload option
+	-->
+	<form>
+		choose a file:
+		<input type="file" name="">
+	</form>
+
+	<!--
+		Form part 7: hidden input
+	-->
+	<form>
+		firstname:
+		<input type="text" name="" value="">
+		<br/>
+		lastname:
+		<input type="hidden" name="" value="Doe">
+	</form>
+
+	<!--
+		Form part 8: the rest of form
+		placeholder, required, email, date
+	-->
+
+	<form>
+		<p>
+			<input type="text" name="" placeholder="firstname" required>
+		</p>
+		<p>
+			<input type="text" name="" placeholder="lastname" required>
+		</p>
+		<p>
+			<input type="email" name="" placeholder="email" required>
+		</p>
+		<p>
+			<input type="date" name="" placeholder="D.O.B" required>
+		</p>
+		<p>
+			<input type="url" name="" placeholder="Your facebook link" required>
+		</p>
+		<p>
+			<input type="submit" name="" value="Sign up">
+		</p>
+	</form>
+
+</body>
+</html>
