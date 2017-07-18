@@ -8,12 +8,12 @@
 	-->
 	<style>
 		.header{
-			border:grey 1px solid;
-			padding:5px;
+			border-bottom:#f4ffba 1px solid;
+			background: #f4ffba;
+			padding:15px;
 		}
 
 		.logo{
-			border: grey 1px solid;
 			width:150px;
 			float:left;
 		}
@@ -23,15 +23,68 @@
 		}
 
 		.links{
-			border: grey 1px solid;
 			width:200px;
 			margin-left: 1050px;
 			text-align:center;
 		}
-
+		a{
+			color:#db1818;
+			text-decoration: none;
+			margin-left:7px;
+			font-size: 18px;
+			text-transform: capitalize;
+		}
 		.clear{
 			clear:both;
 		}
+		.content{
+
+			padding:7px;
+		}
+		.banner{
+			float:left;
+			width:65%;
+		}
+		.banner img{
+			width:100%;
+		}
+		.welcome{
+			margin-left: 65%;
+			width:35%;
+			padding: 7px;
+		}
+		.content h2{
+			text-align:center;
+			font-size:40px;
+			color:red;
+			background: #f4ffba;
+			;
+		}
+		.welcome p{
+			font-size: 25px;
+			background: #f4ffba;
+			font-style: italic;
+
+		}
+		.subcontent{
+			border-top:grey solid 2px;	 
+
+		}
+		.subcontent .hours{
+			float:left;
+			width:32%;
+			padding: 8px;
+		}
+		.subcontent .socialmedia{
+			float:left;
+			width:32%;
+			margin-left: 1%;
+		}
+		.subcontent .visitus{
+			width:33%;
+			margin-left: 68%;
+		}
+
 	</style>
 </head>
 <body>
@@ -61,11 +114,46 @@
 		Content
 	-->
 	<div class="content">
-		
-		This is our content sections.
-
+		<h2>WELCOME TO NASTA</h2>
+			
+		<div class="banner">				
+			<img src="img/food.jpg" width="700" height="450"/>
+		</div>
+			
+		<div class="welcome">				
+			<p>Best somali food in Nairobi!! Yet to find better! The food is not mainstream, it's specially prepared nicely for each person. Orders don't take long, great service and the best, the best chili sauce served separately.
+			</p>
+		</div>
+		<div class="clear"></div>
 	</div>
 
+	<!--
+		Subcontent
+	-->
+	<div class="subcontent">
+
+		<div class="hours">
+			<h2>HOURS</h2>
+			<p>Tuesday - Friday 5pm - 10 pm</p>
+			<p>Saturday 10:30 am - 3 pm - 5 pm - 10 pm</p>
+			<p>Sunday 10:30 am-3 pm - 5 pm - 9 pm </p>
+		</div>
+		<div class="socialmedia">
+			<h2>SOCIAL MEDIA</h2>
+			<p>Stay connected with us and be the first to learn about special menu items, events and much more!</p>
+
+		</div>
+
+		<div class="visitus">
+			<h2>VISIT US</h2>
+			<p>West Palm Beach, FL</p>
+		</div>
+
+
+		
+
+
+	</div>
 	<!--
 		footer
 	-->
